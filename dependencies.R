@@ -1,7 +1,7 @@
 # LIST OF REQUIRED PACKAGES -----------------------------------------------
 
 required_packages <- c(
-  "checkpoint"
+#  "checkpoint"
 )
 
 # install missing packages
@@ -15,7 +15,7 @@ if (length(new.packages)) {
 rm(new.packages)
 
 library(checkpoint)
-checkpoint(snapshotDate ='2019-12-17')
+#checkpoint(snapshotDate ='2019-12-17')
 library(AMR)
 library(data.table)
 library(DT)

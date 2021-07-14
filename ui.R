@@ -2,12 +2,12 @@
 
 ui <- dashboardPage(
   skin = "black",
-  title = "RadaR",
+  title = "DAT",
   
   # HEADER ------------------------------------------------------------------
   
   dashboardHeader(
-    title = span(img(src = "radar.svg", height = 35), "RadaR"),
+    title = span(img(src = "radar.svg", height = 35), "DAT"),
     titleWidth = 300,
     dropdownMenu(
       type = "notifications", 
@@ -45,9 +45,9 @@ ui <- dashboardPage(
     ),
     tags$li(
       a(
-        strong("ABOUT RadaR"),
+        strong("ABOUT DAT"),
         height = 40,
-        href = "https://github.com/ceefluz/radar/blob/master/README.md",
+        href = "https://github.com/joker-jerome/",
         title = "",
         target = "_blank"
       ),
@@ -65,7 +65,7 @@ ui <- dashboardPage(
                introBox(data.step = 1, data.intro = intro$text[1], # intro tour
                         div(id = "sidebar_button",
                             bsButton(inputId = "confirm", 
-                                     label = "START RADAR", 
+                                     label = "START DAT", 
                                      icon = icon("play-circle"), 
                                      style = "danger")
                         )
